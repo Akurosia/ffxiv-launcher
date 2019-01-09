@@ -52,7 +52,8 @@
 
     .ac-row-flex2 {
         display: flex;
-
+        margin-top: 5px;
+        
         > div {
             flex: 0 1 50%;
 
@@ -68,6 +69,10 @@
                 justify-content: flex-end;
                 margin-left: 5px;
             }
+        }
+
+        > label {
+             flex: 0 1 50%;
         }
     }
 

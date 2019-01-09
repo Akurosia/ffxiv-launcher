@@ -48,6 +48,10 @@ app.on('window-all-closed', () => {
     }
 });
 
+//To enable remote debugging enable these 2 lines and after openening app, access http://127.0.0.1:8315 in your browser
+//app.commandLine.appendSwitch('remote-debugging-port', '8315');
+//app.commandLine.appendSwitch('host-rules', 'MAP * 127.0.0.1');
+
 app.on('activate', () => {
     // On macOS it's common to re-create a window in the app when the
     // dock icon is clicked and there are no other windows open.
