@@ -5,8 +5,7 @@ module.exports = {
     custom: {
         // XIVAPI
         xivapiEndpoint: "https://xivapi.com",
-        xivapiKey: "9ba8086eb2f048e780d33f1b",
-        xivapiPollDelay: 60000,
+        xivapiPollDelay: 10000,
         RaelysAPIProtocol: "http://",
         RaelysAPIURL: "lodestone.raelys.com",
         RaelysAPIEndpoint: "http://na.lodestone.raelys.com",
@@ -26,6 +25,8 @@ module.exports = {
         Dx9Path: '\\game\\ffxiv.exe',
         Dx11Path: '\\game\\ffxiv_dx11.exe',
         UserAgent: 'SQEXAuthor/2.0.0(Windows 6.2; ja-jp; 45d19cc985)',
+        UseSqPack: 1,
+        DataPathType: 1,
         LoginGameVersionRequest: {
             Host: 'patch-gamever.ffxiv.com',
             Port: 443,
